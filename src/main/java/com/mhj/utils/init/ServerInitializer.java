@@ -13,11 +13,11 @@ public class ServerInitializer implements ApplicationRunner {
 
 	private String dirEncode = "/home/mhj/Documentos/dev/encoder-arquivos/";
 	private String dirDecode = "/home/mhj/Documentos/dev/decoder-arquivos/";
-	private String nomeArquivo = "mhj-utils";
-	private String extensaoZip = ".zip";
-	private String extensaoTxt = ".txt";	
-	private String from = nomeArquivo + extensaoZip;
-	private String to = nomeArquivo + extensaoTxt;
+	private String nomeArquivo = "teste";
+	private String extensaoEntrada = ".zip";
+	private String extensaoSaida = ".txt";	
+	private String from = nomeArquivo + extensaoEntrada;
+	private String to = nomeArquivo + extensaoSaida;
 	
 	@Autowired
 	private EncoderService encoderService;
